@@ -22,13 +22,15 @@ class LeandroController extends Controller
             'message' => 'envia los datos correctamente',
         ];
         */
+
+        // arreglo el cual se puede rellenar y responder a alguna solicitud
         $array1 = [1,2,3,4,5,6];
 
         return response()->json([
-            'code' => '200',
-            'status' => 'success',
-            'data'=>'estos datos de ejemplo',
-            'data2'=> $array1
+            'code' => '200', // codigo http de respuesta positiva 
+            'status' => 'success', // estado de la solicitud
+            'data'=>'estos datos de ejemplo', // datos de ejemplo 
+            'data2'=> $array1 // datos de ejemplo 
         ], 200);
     }
 
