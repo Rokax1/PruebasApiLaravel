@@ -26,4 +26,4 @@ Route::resource('api/EjemploLeandro',LeandroController::class);
 
 
 
-//prueba de pull 
+//prueba de pull jejeje
