@@ -16,11 +16,10 @@ use App\Http\Controllers\FelipeController;
 |
 */
 
-/*
+
 Route::get('/', function () {
     return view('welcome');
 });
-*/
 
 
 Route::resource('api/EjemploLeandro',LeandroController::class);
