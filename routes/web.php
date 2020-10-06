@@ -23,3 +23,7 @@ Route::get('/', function () {
 
 
 Route::resource('api/EjemploLeandro',LeandroController::class);
+
+
+
+//sdfklslkdfd
