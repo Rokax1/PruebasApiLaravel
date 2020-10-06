@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LeandroController;
+use App\Http\Controllers\FelipeController;
 
 
 /*
@@ -23,10 +24,8 @@ Route::get('/', function () {
 
 
 Route::resource('api/EjemploLeandro',LeandroController::class);
+Route::resource('api/EjemploFelipe',FelipeController::class);
 
 
 
-
-//prueba de pull jejeje
-//felipeeeeee
-
+//nuevo
